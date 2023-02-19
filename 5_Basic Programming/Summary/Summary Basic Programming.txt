@@ -1,0 +1,12 @@
+Materi: Basic Programming
+-	Pada variabel tipe data dijelaskan bahwa variabel merupakan tempat untuk menyimpan data dengan tipe data yang sama. Jika ingin membuat data yang berbeda, maka dapat membuat beberapa variabel. 
+-	Tipe data pada golang dibagi menjadi 3 yaitu:
+1.	Boolean
+-	True
+-	False  
+2.	Numeric
+-	Integer untuk angka biasa
+-	Float untuk angka desimal
+-	Complex 
+3.	String
+-	Hanya ada beberapa struktur kontrol di Go. untuk branching (bercabang) dapat menggunakan if dan switch. Sedangkan untuk menulis loop menggunakan kata kunci for.
