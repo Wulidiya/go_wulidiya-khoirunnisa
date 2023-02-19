@@ -1,0 +1,7 @@
+Materi: introduction Algorithm
+-	Algoritma merupakan sebuah penyelesaian masalah-masalah tertentu saat pengembangan aplikasi. Algoritma mengambil beberapa nilai sebagai input kemudian diproses dan menghasilkan beberapa nilai sebagai output. Contohnya mengecek bilangan prima, membedakan beberapa kategori (seperti bentuk persegi, segitiga, dan bentuk lainnya), dan mencari kumpulan nama-nama
+-	Algoritma dasar terdiri dari:
+1.	Sequential (berurutan)
+2.	Branching (bercabang)
+3.	Looping (pengulangan)
+-	Pseudocode adalah deskripsi bahasa sederhana untuk menuangkan ide, contohnya menghitung luas segitiga dengan input alas dan tinggi, calculate berupa luas segitiga yaitu (alas x tinggi)/2, dan print berpa luas. Sedangkan flowchart adalah bagan dengan simbol tertentu yang menggambarkan  urutan dan hubungan antar proses secara mendetail.
