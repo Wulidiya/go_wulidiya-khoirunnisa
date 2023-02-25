@@ -1,6 +1,6 @@
 # 7_Section_Time Complexity & Space Complexity
-Time Complexity adalah bagaimana kita menghitung sebuah sistem akan berjalan dengan waktu. Waktu dihitung dengan menentukan seberapa banyak operasi dominan yang dilakukan.
-Operasi dominan (Big-O notation) dapat dilihat dari contoh berikut:
+- Time Complexity adalah bagaimana kita menghitung sebuah sistem akan berjalan dengan waktu. Waktu dihitung dengan menentukan seberapa banyak operasi dominan yang dilakukan.
+- Operasi dominan (Big-O notation) dapat dilihat dari contoh berikut:
 Func dominant (n int) int {
 Var result int = 0
 For I := 0; I < n; i++ {
