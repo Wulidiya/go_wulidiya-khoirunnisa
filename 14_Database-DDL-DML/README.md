@@ -8,8 +8,8 @@
 -	Salah satu contoh software yang menggunakan relational database model sebagai dasarnya adalah MySQL. Jenis perintah SQL:
 1.	DDL (data definition languange)
 2.	DML (data manipulation languange) digunakan untuk memamnipulasi data dalam tabel suatu database. Statemen operation:
-    a. INSERT, ex: input data ke tabel user dengan INSERT INTO USERS (username, fullname, status gender, email, password, location)
-    b. SELECT, ex: menampilka semua data pada tabel user dengan SELECT * FROM USERS
+   - INSERT, ex: input data ke tabel user dengan INSERT INTO USERS (username, fullname, status gender, email, password, location)
+   - SELECT, ex: menampilka semua data pada tabel user dengan SELECT * FROM USERS
     c. UPDATE, ex: mengubah data fullname ke tabel user dengan id  dengan UPDATE users SET fullname=’Bima Sakti’ WHERE id = 1
     d. DELETE, ex: hapus data pada tabel user dengan id 1 dengan DELETE FROM users WHERE id = 1
 3.	DCL (data control languange)
