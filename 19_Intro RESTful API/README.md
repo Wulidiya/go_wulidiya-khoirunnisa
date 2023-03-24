@@ -1,7 +1,7 @@
 # 19_Section_Intro RESTful API
-Implementasi: mengintegrasikan aplikasi frontend dan backend ataupun backend dan backend
-Cara kerja: terjadi proses request dari frontend ke backend dan API akan memberikan respon sesuai dengan permintaannya.
-REST (Representational State Transfer) memiliki format JSON (JavaScript Object Notation), XML, dan SOAP. Format JSON: Code, massage, status, data
+- Implementasi: mengintegrasikan aplikasi frontend dan backend ataupun backend dan backend
+- Cara kerja: terjadi proses request dari frontend ke backend dan API akan memberikan respon sesuai dengan permintaannya.
+- REST (Representational State Transfer) memiliki format JSON (JavaScript Object Notation), XML, dan SOAP. Format JSON: Code, massage, status, data
 # HTTP request method:
 1.	GET untuk meminta data dari resource yang telah ditentukan pada UR
 2.	POST untuk melakukan update dan jika data tidak ditemukan maka akan ditambahkan data baru
