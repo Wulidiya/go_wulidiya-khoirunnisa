@@ -8,14 +8,11 @@
 
 # Perbedaan container dan virtual mechine
 - Alokasi Resource
--Pada virtual mechine, alokasi resource dilakukan pada awal instalasi sehingga ketika ada 2 virtual mechine yang sudah ditentukan resource-nya dan salah satunya kehabisan resource, maka virtual mechine yang kehabisan resource tidak dapat mengambil resource dari virtual mechine lain. 
--Sedangkan pada Container, alokasi resource dapat dilakukan oleh host server sehingga host dapat melakukan pengambilan resource pada hardware sesuai yang dibutuhkan container itu sendiri.
+--> Pada virtual mechine, alokasi resource dilakukan pada awal instalasi sehingga ketika ada 2 virtual mechine yang sudah ditentukan resource-nya dan salah satunya kehabisan resource, maka virtual mechine yang kehabisan resource tidak dapat mengambil resource dari virtual mechine lain. Sedangkan pada Container, alokasi resource dapat dilakukan oleh host server sehingga host dapat melakukan pengambilan resource pada hardware sesuai yang dibutuhkan container itu sendiri.
 - Hypervisor
--Hypervisor adalah sebuah software induk yang sering digunakan untuk menjalankan sistem di virtual mechine. Jika tidak ada hypervisor, maka virtual mechine tidak dapat berjalan. 
--Container dapat menjalankan program secara langsung di OS itu sendiri.
+--> Hypervisor adalah sebuah software induk yang sering digunakan untuk menjalankan sistem di virtual mechine. Jika tidak ada hypervisor, maka virtual mechine tidak dapat berjalan. Namun, container dapat menjalankan program secara langsung di OS itu sendiri.
 - Kernel
--Kernel merupakan sebuah program komputer yang memungkinkan Virtual Machine dapat memiliki akses ke kernel untuk dapat menjalankan aplikasi yang ada di dalamnya.
--Pada container, akses ke kernel tidak tersedia.
+--> Kernel merupakan sebuah program komputer yang memungkinkan Virtual Machine dapat memiliki akses ke kernel untuk dapat menjalankan aplikasi yang ada di dalamnya. Pada container, akses ke kernel tidak tersedia.
 
 # Docker infrastructure
 - 3 bagian docker:
