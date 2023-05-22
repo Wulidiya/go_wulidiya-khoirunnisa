@@ -1,2 +1,10 @@
-# _Section_
- 
+# 28_Section_CI/CD
+
+# CI atau CD
+- CI merupakan kependekan dari Continuous Integration, sedangkan CD merupakan kependekan dari Continuous Delivery atau Continuous Deployment. CI/CD adalah praktik pengembangan perangkat lunak yang berfokus pada otomatisasi dan integrasi berkelanjutan antara tahap pengembangan, pengujian, dan pengiriman perangkat lunak. Praktik CI/CD memungkinkan pengembang untuk mengirimkan perangkat lunak secara lebih cepat dan lebih andal.
+- Continuous Integration (CI) adalah praktik yang memastikan bahwa setiap perubahan kode yang dibuat dalam tim pengembangan perangkat lunak diintegrasikan ke dalam repositori utama secara teratur dan diuji secara otomatis. Praktik CI memastikan bahwa masalah dalam kode dapat dideteksi lebih cepat dan diperbaiki sebelum masalah tersebut menyebar ke seluruh sistem.
+- Continuous Delivery (CD) adalah praktik yang memastikan bahwa setiap perubahan kode yang diintegrasikan ke dalam repositori utama dapat dikirimkan ke lingkungan produksi secara otomatis. Praktik CD memungkinkan pengembang untuk mengirimkan perangkat lunak dengan lebih cepat dan lebih sering, serta memastikan bahwa perangkat lunak yang dikirimkan ke lingkungan produksi telah melalui pengujian yang memadai.
+- Continuous Deployment (CD) adalah praktik yang mirip dengan CD, namun dengan memperluas praktik tersebut ke tahap pengiriman secara langsung ke lingkungan produksi tanpa melalui tahap pengujian manual. Praktik CD memungkinkan pengembang untuk mengirimkan perangkat lunak dengan lebih cepat dan lebih sering, serta memastikan bahwa perangkat lunak yang dikirimkan ke lingkungan produksi telah melalui pengujian yang memadai.
+
+# Penerapan praktik CI/CD
+Dalam penerapannya praktik CI/CD memungkinkan tim pengembangan perangkat lunak untuk mengirimkan perangkat lunak yang lebih cepat, lebih sering, dan lebih andal ke pelanggan atau pengguna. Dengan otomatisasi pengujian dan pengiriman perangkat lunak, tim pengembangan perangkat lunak dapat lebih fokus pada mengembangkan fitur-fitur baru dan memperbaiki masalah sehingga memungkinkan tim untuk lebih efisien dan efektif dalam pengembangan perangkat lunak.
