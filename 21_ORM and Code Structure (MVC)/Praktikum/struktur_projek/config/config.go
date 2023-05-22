@@ -2,7 +2,7 @@ package config
 
 import (
 	"fmt"
-	"project_structure1/models"
+	"mini-project-mvc/model"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
@@ -10,14 +10,13 @@ import (
 
 var DB *gorm.DB
 
-func InitDB() {
-
+func InitDB() *gorm.DB {
 	config := map[string]string{
 		"DB_Username": "root",
 		"DB_Password": "484751",
 		"DB_Port":     "3306",
 		"DB_Host":     "localhost",
-		"DB_Name":     "project_structure",
+		"DB_Name":     "tes",
 	}
 
 	connectionString := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8&parseTime=True&loc=Local",
@@ -33,8 +32,9 @@ func InitDB() {
 		panic(e)
 	}
 	InitMigrate()
+	return DB
 }
 
 func InitMigrate() {
-	DB.AutoMigrate(&models.User{}, &models.Book{}, &models.Blog{})
+	DB.AutoMigrate(&model.User{}, &model.Book{}, &model.Blog{})
 }
